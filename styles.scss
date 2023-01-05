@@ -3,3 +3,37 @@ $dark-background-color: #1f2937;
 $quote-section-background-color: #E5E7EB;
 $header-text-color: #f9faf8;
 
+*, *::before, *::after {
+    font-size: 10pxx
+}
+
+header {
+    background-color: $dark-background-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 8rem;
+    gap: 3rem;
+
+    a {
+        color: $quote-section-background-color;
+        font: 1.8rem;
+    }
+}
+
+header a:first-of-type {
+    margin-left: auto;
+}
+
+
+.header__logo {
+    color: $header-text-color;
+    font-size: 2.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
